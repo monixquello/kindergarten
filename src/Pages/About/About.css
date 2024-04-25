@@ -1,0 +1,49 @@
+.about-section {
+    position: relative;
+    text-align: center; 
+  }
+  
+
+
+  
+  .about-section h1 {
+    position: relative;
+    margin-top: 8%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: beige;
+    font-size: 6vw; 
+    text-shadow: 4px 4px brown;
+  }
+  
+  .main-content {
+    padding: 50px 60px; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-content,
+  .right-content {
+    flex: 1; /* Make both content sections take equal space */
+    max-width: 600px; /* Limit content width */
+    padding: 0 20px; /* Add horizontal padding */
+  }
+  
+  .left-content p,
+  .right-content p {
+    font-size: 16px; /* Adjust font size */
+    line-height: 1.5; /* Add line spacing */
+    color: #555; /* Set text color */
+  }
+  
+  .left-content h2,
+  .right-content h2 {
+    font-size: 3vw; /* Responsive font size */
+    color: brown; /* Set heading color */
+    margin-bottom: 20px; /* Add bottom margin */
+  }
+  
