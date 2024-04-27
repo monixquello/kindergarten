@@ -2,6 +2,8 @@ import React from 'react'
 import '../../Pages/About/About.css';
 import Navbar from '../../components/Navbar/Navbar';
 import Footer from '../../components/Footer/Footer';
+import Card from '../../components/Card/Card';
+import Program from '../../components/Program/Program';
 
 
 const About = () => {
@@ -31,6 +33,8 @@ const About = () => {
           </p>
         </div>
       </div>
+      <Card/>
+      <Program/>
       <Footer/>
     </div>
   )
